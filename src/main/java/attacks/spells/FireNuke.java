@@ -1,4 +1,4 @@
-package attacks.bases.Spells;
+package attacks.spells;
 
 public class FireNuke extends FireBomb {
     @Override

@@ -1,7 +1,7 @@
-package attacks.bases.Spells;
+package attacks.spells;
 
+import attacks.bases.Spell;
 import attacks.targeting.SingleTarget;
-import Spell;
 import attacks.elements.Water;
 
 public class WaterArrow extends Spell implements Water, SingleTarget {

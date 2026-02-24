@@ -1,8 +1,8 @@
-package attacks.bases.Spells;
+package attacks.spells;
 
+import attacks.bases.Spell;
 import attacks.targeting.AreaOfEffect;
 import attacks.elements.Fire;
-import Spell;
 
 public class FireBomb extends Spell implements Fire, AreaOfEffect {
 

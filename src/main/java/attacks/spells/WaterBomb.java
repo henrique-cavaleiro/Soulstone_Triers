@@ -1,7 +1,7 @@
-package attacks.bases.Spells;
+package attacks.spells;
 
+import attacks.bases.Spell;
 import attacks.targeting.AreaOfEffect;
-import Spell;
 import attacks.elements.Water;
 
 public class WaterBomb extends Spell implements Water, AreaOfEffect {
