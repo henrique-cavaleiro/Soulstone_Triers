@@ -1,4 +1,4 @@
-package attacks.spells;
+package domein.attacks.spells;
 
 public class FireNuke extends FireBomb {
     @Override

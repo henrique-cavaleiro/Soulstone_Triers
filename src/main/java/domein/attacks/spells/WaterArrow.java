@@ -1,8 +1,8 @@
-package attacks.spells;
+package domein.attacks.spells;
 
-import attacks.bases.Spell;
-import attacks.targeting.SingleTarget;
-import attacks.elements.Water;
+import domein.attacks.bases.Spell;
+import domein.attacks.targeting.SingleTarget;
+import domein.attacks.elements.Water;
 
 public class WaterArrow extends Spell implements Water, SingleTarget {
     @Override

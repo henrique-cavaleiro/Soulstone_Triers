@@ -1,4 +1,4 @@
-package attacks.bases;
+package domein.attacks.bases;
 
 public abstract class Spell {
     protected double cooldown;

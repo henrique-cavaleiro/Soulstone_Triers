@@ -1,8 +1,8 @@
-package attacks.spells;
+package domein.attacks.spells;
 
-import attacks.bases.Spell;
-import attacks.targeting.AreaOfEffect;
-import attacks.elements.Fire;
+import domein.attacks.bases.Spell;
+import domein.attacks.targeting.AreaOfEffect;
+import domein.attacks.elements.Fire;
 
 public class FireBomb extends Spell implements Fire, AreaOfEffect {
 

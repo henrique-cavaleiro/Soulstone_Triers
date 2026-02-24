@@ -1,8 +1,8 @@
-package attacks.spells;
+package domein.attacks.spells;
 
-import attacks.bases.Spell;
-import attacks.targeting.AreaOfEffect;
-import attacks.elements.Water;
+import domein.attacks.bases.Spell;
+import domein.attacks.targeting.AreaOfEffect;
+import domein.attacks.elements.Water;
 
 public class WaterBomb extends Spell implements Water, AreaOfEffect {
     @Override
