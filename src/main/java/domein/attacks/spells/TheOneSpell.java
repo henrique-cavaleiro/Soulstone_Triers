@@ -9,7 +9,7 @@ import domein.attacks.elements.Wind;
 public class TheOneSpell extends Aura implements Fire, Water, Wind, Lightning {
     @Override
     public void applyBurn() {
-        
+
     }
 
     @Override

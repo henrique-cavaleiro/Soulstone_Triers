@@ -1,6 +1,5 @@
 package domein.attacks.spells;
 
-import domein.Characters.Character;
 import domein.attacks.bases.Spell;
 import domein.attacks.targeting.SingleTarget;
 import domein.attacks.elements.Water;
