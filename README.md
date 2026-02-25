@@ -1,5 +1,6 @@
 # Soulstone Triers
-This is a game i'm trying to make using java,javaFx and sceneBuilder to beter learn and understand java
+This is a game i'm trying to make using java,javaFx and sceneBuilder to beter learn and understand java  
+to run in intellij `view->tool window->maven->plugins->javafx-run`
 ## inspiration
 - roguelikes
 - Soulstone Survivors
