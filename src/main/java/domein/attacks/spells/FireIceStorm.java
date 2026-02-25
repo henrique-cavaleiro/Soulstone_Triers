@@ -10,7 +10,7 @@ public class FireIceStorm extends Aura implements Fire, Water {
 
     @Override
     public void applyBurn() {
-
+        System.out.println("Burn effect applied!");
     }
 
     @Override
@@ -20,7 +20,7 @@ public class FireIceStorm extends Aura implements Fire, Water {
 
     @Override
     public void applySlow() {
-
+        System.out.println("slow applied");
     }
 
     @Override
@@ -35,6 +35,13 @@ public class FireIceStorm extends Aura implements Fire, Water {
 
     @Override
     public void affectMultipleTargets() {
+        System.out.printf("multiple targets hit");
+    }
 
+    @Override
+    public void cast() {
+        affectMultipleTargets();
+        applyBurn();
+        applySlow();
     }
 }

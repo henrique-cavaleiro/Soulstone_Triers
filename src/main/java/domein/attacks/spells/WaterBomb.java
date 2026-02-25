@@ -12,7 +12,7 @@ public class WaterBomb extends Spell implements Water, AreaOfEffect {
 
     @Override
     public void affectMultipleTargets() {
-        System.out.printf("targets geraakt");
+        System.out.printf("multiple targets geraakt");
 
     }
 
@@ -29,6 +29,7 @@ public class WaterBomb extends Spell implements Water, AreaOfEffect {
 
     @Override
     public void cast() {
-
+        applySlow();
+        affectMultipleTargets();
     }
 }

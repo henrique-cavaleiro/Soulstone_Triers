@@ -56,4 +56,9 @@ public class TheOneSpell extends Aura implements Fire, Water, Wind, Lightning {
     public void affectMultipleTargets() {
 
     }
+
+    @Override
+    public void cast() {
+
+    }
 }

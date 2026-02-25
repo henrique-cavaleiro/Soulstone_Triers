@@ -8,6 +8,7 @@ public class FireBomb extends Spell implements Fire, AreaOfEffect {
 
     @Override
     public void applyBurn() {
+
         System.out.println("Burn effect applied!");
     }
 
@@ -27,7 +28,11 @@ public class FireBomb extends Spell implements Fire, AreaOfEffect {
     }
 
     @Override
-    public void cast() {
+    public void cast(
+    ) {
+        affectMultipleTargets();
+        applyBurn();
+
 
     }
 }

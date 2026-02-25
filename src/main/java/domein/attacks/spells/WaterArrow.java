@@ -19,6 +19,13 @@ public class WaterArrow extends Spell implements Water, SingleTarget {
 
     @Override
     public void cast() {
+        enemyHit();
+        applySlow();
 
+    }
+
+    @Override
+    public void enemyHit() {
+        System.out.printf("single target hit");
     }
 }
