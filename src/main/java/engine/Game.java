@@ -43,7 +43,7 @@ public class Game {
     private void render() {
         gc.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
         gc.fillText("Game Running...", 50, 50);
-        Image image1 = new Image("file:Test.png",100,0,false,false);
+        Image image1 = new Image("/Spr/CharacterSPR/Test.png",50,50,false,false);
         gc.drawImage(image1,150,150);
         // Hier teken je alles
     }
