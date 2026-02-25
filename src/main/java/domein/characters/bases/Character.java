@@ -8,7 +8,30 @@ public class Character {
     static float waterDamage = 10;
     static float windDamage = 10;
     static float lightningDamage = 10;
+    private static final float DEFAULT_DMG = 10;
 
+
+    public Character(int life, float damage, int radius, float fireDamage, float waterDamge, float windDamage, float lightningDamage){
+        setLife(life);
+        setDamage(damage);
+        setRadius(radius);
+        setFireDamage(fireDamage);
+        setLightningDamage(lightningDamage);
+        setWindDamage(windDamage);
+        setLightningDamage(lightningDamage);
+
+    }
+
+    public Character(int life, float damage, int radius){
+        setLife(life);
+        setDamage(damage);
+        setRadius(radius);
+        setFireDamage(DEFAULT_DMG);
+        setLightningDamage(DEFAULT_DMG);
+        setWindDamage(DEFAULT_DMG);
+        setLightningDamage(DEFAULT_DMG);
+
+    }
 
     public static float getFireDamage() {
         return fireDamage;
@@ -67,29 +90,8 @@ public class Character {
         this.damage = damage;
     }
 
-    private static final float DEFAULT_DMG = 10;
 
-    public Character(int life, float damage, int radius, float fireDamage, float waterDamge, float windDamage, float lightningDamage){
-        setLife(life);
-        setDamage(damage);
-        setRadius(radius);
-        setFireDamage(fireDamage);
-        setLightningDamage(lightningDamage);
-        setWindDamage(windDamage);
-        setLightningDamage(lightningDamage);
 
-    }
-
-    public Character(int life, float damage, int radius){
-        setLife(life);
-        setDamage(damage);
-        setRadius(radius);
-        setFireDamage(DEFAULT_DMG);
-        setLightningDamage(DEFAULT_DMG);
-        setWindDamage(DEFAULT_DMG);
-        setLightningDamage(DEFAULT_DMG);
-
-    }
 
 }
 
